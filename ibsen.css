@@ -7,21 +7,56 @@ font-size: medium;
 font-family: 'Times New Roman', Times, serif;
 font-size: small;
 color: black;
-background-color: cadetblue;
+background-color: rgb(155, 162, 163);
+}
+.name{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blueviolet;
 }
 .direction:hover{
  color: beige; 
  background-color: brown;  
 }
-.Dr. Stockmann{
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-color: antiquewhite;
+.Dr_Stockmann{
+font-family:'Arial Narrow Bold', sans-serif;
+color: rgb(145, 229, 254);
 }
-.Morten Kiil{
+.Morten_Kiil{
 font-family: Arial, Helvetica, sans-serif; 
-color: antiquewhite;   
+color: rgb(249, 144, 8);   
 }
-.Mrs. Stockmann{
+.Mrs_Stockmann{
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 color: blue;
 }
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+tr:nth-child(even){
+    background: gray;
+}
+div {
+    padding: 25px;
+  }
+ p {
+    margin: 25px;
+  }
+  .Dr_Stockmann:hover{
+    font-family:'Arial Narrow Bold', sans-serif;
+    text-shadow: 200px;
+    border: 2px solid rgb(246, 4, 174);
+   
+    }
+    .Morten_Kiil:hover{
+    font-family: Arial, Helvetica, sans-serif; 
+    text-shadow: 200px;
+    border:2px solid rgba(8, 96, 249, 0.925);   
+    }
+    .Mrs_Stockmann:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 200px;
+    border:2px solid rgb(5, 230, 91);
+    }
