@@ -1,0 +1,27 @@
+.speech{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: black;
+font-size: medium;
+}
+.direction{
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: black;
+background-color: cadetblue;
+}
+.direction:hover{
+ color: beige; 
+ background-color: brown;  
+}
+.Dr. Stockmann{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: antiquewhite;
+}
+.Morten Kiil{
+font-family: Arial, Helvetica, sans-serif; 
+color: antiquewhite;   
+}
+.Mrs. Stockmann{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: blue;
+}
